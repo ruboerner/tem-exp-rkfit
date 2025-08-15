@@ -26,7 +26,7 @@ We propose a novel method for computing transient electromagnetic (TEM) response
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/tem-exp-rkfit.git
+git clone https://github.com/ruboerner/tem-exp-rkfit.git
 cd tem-exp-rkfit
 ```
 
