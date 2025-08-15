@@ -4,7 +4,7 @@ This repository contains all code, data, and instructions necessary to reproduce
 
 **"Fast parallel transient electromagnetic modelling using a uniform-in-time approximation to the exponential"**  
 Authors: Ralph-Uwe Börner, Stefan Güttel 
-submitted to GJI, in revision (as of July 2025)
+accepted for publication in GJI (as of August 2025)
 
 ---
 
@@ -14,12 +14,6 @@ We propose a novel method for computing transient electromagnetic (TEM) response
 
 ---
 
-## Repository Structure
-
-- `src/` — Julia source files implementing the forward solver and rational approximation
-- `scripts/` — Scripts to reproduce each figure and table in the paper
-
----
 
 ## Getting Started
 
@@ -36,6 +30,14 @@ using Pkg
 Pkg.activate(".")
 Pkg.instantiate()
 ```
+
+### 2. Rn the example
+In a shell, run
+```shell
+julia -p 40 run_RKFIT.jl
+```
+
+---
 
 ## License
 
