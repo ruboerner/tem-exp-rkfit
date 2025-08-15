@@ -1,0 +1,2 @@
+discretization_3d_10ohmm.jld2 filter=lfs diff=lfs merge=lfs -text
+*.jld2 filter=lfs diff=lfs merge=lfs -text
