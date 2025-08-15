@@ -1,6 +1,6 @@
-function get_poles(; scaling=1e-3, w="52", n="38")
+function get_poles(; scaling=1e-3, w="52", m="38")
     
-    fn = "rat" * n * "w" * w * ".jld2"
+    fn = "rat" * m * "w" * w * ".jld2"
     
     ratw = load(fn)
     res = ratw["res"]
